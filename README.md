@@ -85,9 +85,9 @@ fn fib(n: u32) -> u32 {
 
 #[nexus_rt::main]
 fn main() {
-    let n = 7;
+    let n = 10; // Changed from 7 to 10
     let result = fib(n);
-    assert_eq!(result, 13);
+    assert_eq!(result, 55); // Updated expected result for fib(10)
 }
 ```
 
